@@ -1,8 +1,9 @@
 # Go Hugo Goldmark KaTeX Support
 
 Add [KaTeX](https://katex.org/) support to hugo to render math without
-Javascript. Note that Chrome still doesn't support MathML, use a proper browser!
-You can find a [demo
+Javascript. This patch is based on the [graemephi/goldmark-qjs-katex
+package](https://github.com/graemephi/goldmark-qjs-katex). Note that Chrome
+still doesn't support MathML, use a proper browser! You can find a [demo
 here](https://nox.im/posts/2021/1230/the-probability-of-six-sigma-events/).
 Checkout and patch hugo:
 
